@@ -1,2 +1,16 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+  <script lang="ts">
+  
+    let pageMeta = $state({
+      title: 'Movie Board 🍿',
+      description: 'Manage and pin your movies'
+    });
+  </script>
+
+<svelte:head>
+	<title>{pageMeta.title}</title>
+	<meta name="description" content="{pageMeta.description}" />
+</svelte:head>
+
+<div class="home-page">
+  Home page
+</div>
