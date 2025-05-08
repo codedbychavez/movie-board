@@ -2,7 +2,9 @@
 
 </script>
 
-<!-- HTML goes here -->
+<div class="movie-card">
+  Movie card
+</div>
 
 <style>
   /* CSS goes here */

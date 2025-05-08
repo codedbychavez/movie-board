@@ -6,6 +6,7 @@
   import Navbar from "$lib/components/Navbar.svelte";
 </script>
 
-<Navbar />
-
-{@render children()}
+<!-- <Navbar /> -->
+<div class="h-full">
+  {@render children()}
+</div>
