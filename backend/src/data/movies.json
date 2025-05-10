@@ -1,0 +1,62 @@
+[
+  {
+    "name": "The Neon Drift",
+    "description": "A cyberpunk detective unravels a mystery in the digital underworld.",
+    "rating": 4.1,
+    "status": "in pick"
+  },
+  {
+    "name": "Echoes of Tomorrow",
+    "description": "Time travelers clash over changing the past to save the future.",
+    "rating": 3.7,
+    "status": "in pick"
+  },
+  {
+    "name": "Sunset Mirage",
+    "description": "A retired spy is pulled back into one last mission across the Sahara.",
+    "rating": 4.5,
+    "status": "in pick"
+  },
+  {
+    "name": "Code Zero",
+    "description": "A brilliant hacker discovers a backdoor that leads to a government conspiracy.",
+    "rating": 4.2,
+    "status": "in pick"
+  },
+  {
+    "name": "Beneath the Ice",
+    "description": "Scientists trapped in Antarctica uncover a dangerous secret beneath the ice.",
+    "rating": 3.9,
+    "status": "in pick"
+  },
+  {
+    "name": "The Silent Signal",
+    "description": "A rogue satellite sends out a signal no one can explain—until it's too late.",
+    "rating": 3.4,
+    "status": "in pick"
+  },
+  {
+    "name": "Lost Frequency",
+    "description": "A DJ finds an old vinyl that plays a frequency opening doors to other dimensions.",
+    "rating": 4.0,
+    "status": "in pick"
+  },
+  {
+    "name": "Orbitfall",
+    "description": "A stranded astronaut must make contact with Earth before reentry fails.",
+    "rating": 4.6,
+    "status": "in pick"
+  },
+  {
+    "name": "Night Harvest",
+    "description": "In a rural village, a mysterious crop circle marks the start of something darker.",
+    "rating": 3.8,
+    "status": "in pick"
+  },
+  {
+    "name": "Mirror Vale",
+    "description": "A town where everyone has a doppelgänger—and one of them starts killing.",
+    "rating": 4.3,
+    "status": "in pick"
+  }
+]
