@@ -17,8 +17,8 @@
 	<meta name="description" content={pageMeta.description} />
 </svelte:head>
 
-<div class="home-page flex w-full h-full py-8">
-	<div class="movie-picks-wrapper w-1/4 border-r border-gray-200">
+<div class="home-page flex w-full h-full">
+	<div class="movie-picks-wrapper min-w-1/4 border-r border-gray-200">
 		<MoviePicks movies={data.movies} />
 	</div>
 	<div class="watch-list-wrapper w-full">
