@@ -1,4 +1,4 @@
-enum EMovieStatus {
+export enum EMovieStatus {
   inPick = "in pick",
   toWatch = "to watch",
   inWatching = "in watching",

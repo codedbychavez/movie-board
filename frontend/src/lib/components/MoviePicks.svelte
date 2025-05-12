@@ -10,7 +10,7 @@
 </script>
 
 <div class="movie-picks py-4">
-	<h2 class="text-2xl text-center">Movie Picks</h2>
+	<h2 class="text-2xl text-center font-black">Movie Picks</h2>
 
 	<div class="movie-cards mt-8 pb-8 flex flex-col items-center gap-4">
 			{#each movies as movie (movie.name)}
