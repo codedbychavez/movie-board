@@ -19,7 +19,7 @@ let { movie }: Props = $props();
     </span>
 
     <button class="bg-teal-500 text-green-50 px-3 py-1 rounded-full cursor-pointer">
-      Add to watch
+      {movie.status}
     </button>
 
   </div>
