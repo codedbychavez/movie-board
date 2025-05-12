@@ -10,6 +10,8 @@
 
 	let { data }: PageProps = $props();
 
+	let pageData = $state(data)
+
 </script>
 
 <svelte:head>
@@ -19,9 +21,9 @@
 
 <div class="home-page flex w-full h-full">
 	<div class="movie-picks-wrapper min-w-1/4 border-r border-gray-200">
-		<MoviePicks movies={data.movies} />
+		<MoviePicks movies={pageData.movies} />
 	</div>
 	<div class="watch-list-wrapper w-full">
-		<WatchList />
+		<WatchList movies={pageData.movies} />
 	</div>
 </div>
