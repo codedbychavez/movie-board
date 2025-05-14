@@ -10,7 +10,7 @@ let movieStatuses: TMovieStatus[] = ['in pick', 'to watch', 'in watching', 'in d
 
 let { movie }: Props = $props();
 
-let selectedStatus: TMovieStatus = $state('in pick');
+let selectedStatus: TMovieStatus = $state(movie.status);
 
 function updateMovieStatus(movie: TMovie) {
   console.log(movie.status, selectedStatus);
