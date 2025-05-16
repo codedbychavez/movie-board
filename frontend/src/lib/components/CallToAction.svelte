@@ -4,7 +4,7 @@
 		Say goodbye to scattered movie notes. Plan, sort, and track what you want to watch—all in one
 		board.
 	</p>
-	<button>Start Watching Smarter</button>
+	<a href="/movies">Start Watching Smarter</a>
 </div>
 
 <style>
@@ -24,7 +24,7 @@
 		margin-top: 1rem;
 	}
 
-	.cta button {
+	.cta a {
 		cursor: pointer;
 		margin-top: 3rem;
 		background-image: linear-gradient(to right, #fe8c00 0%, #f83600 51%, #fe8c00 100%);
@@ -37,9 +37,10 @@
 		box-shadow: 0 0 20px #eee;
 		border-radius: 10px;
 		display: block;
+    max-width: max-content;
 	}
 
-	.cta button:hover {
+	.cta a:hover {
 		background-position: right center; /* change the direction of the change here */
 		color: #fff;
 		text-decoration: none;

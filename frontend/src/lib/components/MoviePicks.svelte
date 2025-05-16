@@ -9,10 +9,10 @@
 	let { movies }: Props = $props();
 </script>
 
-<div class="movie-picks py-4">
-	<h2 class="text-2xl text-center font-black text-violet-500">Movie Picks</h2>
+<div class="movie-picks">
+	<h2 class="text-3xl text-center font-black text-orange-500">Weekly Picks</h2>
 
-	<div class="movie-cards mt-8 pb-8 flex flex-col items-center gap-4 px-2">
+	<div class="movie-cards flex gap-4">
 		{#each movies as movie (movie.name)}
 			{#if movie.status === 'in pick'}
 				<MovieCard {movie} />
@@ -22,9 +22,13 @@
 </div>
 
 <style>
+	.movie-picks {
+		margin-top: 2rem;
+	}
 	.movie-cards {
-		height: 90vh;
-		overflow-y: scroll;
-		scroll-behavior: smooth;
+		overflow-x: scroll;
+		padding-left: 2rem;
+		padding-right: 2rem;
+		margin-top: 4rem;
 	}
 </style>
