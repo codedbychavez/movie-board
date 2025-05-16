@@ -10,8 +10,7 @@
 
 	let { data }: PageProps = $props();
 
-	let pageData = $state(data)
-
+	let pageData = $state(data);
 </script>
 
 <svelte:head>
@@ -19,11 +18,23 @@
 	<meta name="description" content={pageMeta.description} />
 </svelte:head>
 
-<div class="home-page flex w-full h-full">
-	<div class="movie-picks-wrapper min-w-1/4 border-r border-gray-200">
+<div class="home-page">
+	<div class="movie-picks-wrapper">
 		<MoviePicks movies={pageData.movies} />
 	</div>
-	<div class="watch-list-wrapper w-full">
+
+	<div class="watch-list-wrapper">
 		<WatchList movies={pageData.movies} />
 	</div>
 </div>
+
+<style>
+	.home-page {
+		max-width: 1440px;
+		margin: 0 auto;
+	}
+
+	.watch-list-wrapper {
+		margin-top: 4rem;
+	}
+</style>
